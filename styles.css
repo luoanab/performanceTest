@@ -1,0 +1,64 @@
+.Query {
+  position: relative;
+}
+
+.Query:hover .popover {
+  left: -100%;
+  width: 100%;
+  display: block;
+}
+
+.btn {
+    margin: 30px auto;
+}
+
+.green {
+    background-color: #00ff00;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.tooltipTrigger {
+    position: relative;
+}
+
+.tooltipBox {
+    position: absolute;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    z-index: 10;
+    left: 0;
+}
+
+/*
+.arrow_box {
+	position: relative;
+	background: #000000;
+	border: 4px solid #020203;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #000000;
+	border-width: 5px;
+	margin-left: -5px;
+}
+.arrow_box:before {
+	border-color: rgba(2, 2, 3, 0);
+	border-bottom-color: #020203;
+	border-width: 11px;
+	margin-left: -11px;
+}*/
